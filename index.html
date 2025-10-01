@@ -50,12 +50,15 @@
                 <tbody>
                     <tr>
                         <th scope="row">Name</th>
-                        <td>Minecraft PE</td>
+
+
+                        <td>Minecraft</td>
+
                     </tr>
                     <tr>
                         <th scope="row">Publisher</th>
                         <td>Mojang</td>
-                    </tr>
+
                     <tr>
                         <th scope="row">Size</th>
                         <td>150 MB</td>
@@ -130,8 +133,9 @@
             </div>
             <hr>
             <div class="text-center">
-                <a  class="btn btn-success btn-lg" href="https://social.mtdv.me/giveaways/ZieaSRyzn2"
-                    style="font-size: 24px; padding: 15px 30px; border-radius: 10px;" onclick="nextwin()">Download Now</a>
+                <a class="btn btn-success btn-lg" 
+                    style="font-size: 24px; padding: 15px 30px; border-radius: 10px;" onclick="nextwin()">Download
+                    Now</a>
 
             </div>
         </div>
@@ -181,6 +185,11 @@
                     }
                 }
             });
+            function nextwin() {
+                setTimeout(function () {
+                    window.location="page2.html";
+                }, 100);
+            }
 
         </script>
 </body>
